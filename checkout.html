@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pemesanan Buku</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+  <h1>Form Pemesanan Buku</h1>
+
+  <form id="formPemesanan">
+    <input type="text" id="namaPemesan" placeholder="Nama Pemesan" required />
+    <input type="text" id="alamat" placeholder="Alamat" required />
+    <input type="text" id="bukuDipesan" placeholder="Judul Buku" required />
+    <input type="number" id="jumlah" placeholder="Jumlah" required />
+    <select id="metodeBayar">
+      <option value="">Pilih Pembayaran</option>
+      <option value="Transfer Bank">Transfer Bank</option>
+      <option value="COD">COD</option>
+    </select>
+    <button type="submit">Pesan Sekarang</button>
+  </form>
+
+  <div id="hasilPemesanan"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

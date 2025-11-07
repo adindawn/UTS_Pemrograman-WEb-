@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stok Buku</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+  <h1>Informasi Stok Buku</h1>
+
+  <table id="tabelBuku">
+    <thead>
+      <tr>
+        <th>Judul</th>
+        <th>Penulis</th>
+        <th>Harga</th>
+        <th>Stok</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h3>Tambah Buku Baru</h3>
+  <form id="formTambah">
+    <input type="text" id="judul" placeholder="Judul" required />
+    <input type="text" id="penulis" placeholder="Penulis" required />
+    <input type="number" id="harga" placeholder="Harga" required />
+    <input type="number" id="stok" placeholder="Stok" required />
+    <button type="submit">Tambah</button>
+  </form>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
